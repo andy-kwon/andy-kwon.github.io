@@ -61,8 +61,8 @@
   background-size: cover;
 }
 @mixin serif-font() {
-  font-family: 'Lora', 'Times New Roman', serif;
+  font-family: 'Noto Sans KR', 'Nanum Gothic', 'Malgun', serif;
 }
 @mixin sans-serif-font() {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Noto Sans KR', 'Helvetica Neue', Helvetica, 'Nanum Gothic', 'Malgun', Arial, sans-serif;
 }
