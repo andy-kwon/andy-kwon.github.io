@@ -1,24 +1,39 @@
-title:              Clean Blog
-email:              your-email@example.com
-description:        A Blog Theme by Start Bootstrap
-author:             Start Bootstrap
+title:              Andy Kwon
+email:
+description:        "#AWS #Python #DevOps #Docker #Kubernetes #Serverless"
+author:             Andy Kwon
 baseurl:            ""
 url:                "https://andy-kwon.github.io/"
 
+collections:
+  tags:
+    output: true
+    permalink: /tags/:path/
+
+defaults:
+  - scope:
+      path: ''
+      type: tags
+    values:
+      layout: tag
+
 # Social Profiles
-twitter_username:   SBootstrap
-github_username:    StartBootstrap
-facebook_username:  StartBootstrap
+twitter_username:
+github_username:    andy-kwon
+facebook_username:
 instagram_username:  
-linkedin_username:
+linkedin_username: andy-kwon1203
 
 # Add your google-analytics ID here to activate google analytics
-google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
+google_analytics:   UA-174897990-1 # out your google-analytics code
+
+highlighter: rouge
 
 # Build settings
 markdown:           kramdown
 paginate:           5
-paginate_path:      "/posts/page:num/"
+paginate_path:      "/posts/:num/"
+
 plugins:
   - jekyll-feed
   - jekyll-paginate

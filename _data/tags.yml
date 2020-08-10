@@ -1,0 +1,5 @@
+- slug: aws
+  name: AWS
+
+- slug: vpc
+  name: VPC
